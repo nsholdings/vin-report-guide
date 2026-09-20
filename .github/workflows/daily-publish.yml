@@ -1,0 +1,60 @@
+name: Daily publish
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 09:00 JST every day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish next queued article
+        id: pub
+        run: python3 queue/publish.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Publish: ${{ steps.pub.outputs.slug }}"
+          git push
+
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp *.html _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Low queue alert
+        if: ${{ fromJSON(steps.pub.outputs.remaining) <= 7 }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create queue-low --color D93F0B --force
+          if [ "$(gh issue list --label queue-low --state open --json number --jq length)" = "0" ]; then
+            gh issue create --title "Article queue low: ${{ steps.pub.outputs.remaining }} left" --label queue-low --body "Add articles to queue/ and list them in queue/manifest.json."
+          fi
