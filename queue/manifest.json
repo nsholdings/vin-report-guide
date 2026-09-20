@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "vin-decoding.html",
+  "title": "How to decode a VIN, position by position",
+  "desc": "What each of the 17 characters in a US VIN means, according to the federal regulation that defines it."
+ },
+ {
+  "slug": "pre-purchase-inspection.html",
+  "title": "The pre-purchase inspection: what it covers and how to arrange one",
+  "desc": "An independent mechanic's inspection is the most thorough check before buying. What it includes, what to ask for, and how to handle a seller who resists."
+ },
+ {
+  "slug": "unrepaired-recalls.html",
+  "title": "Open recalls on used cars: who fixes them and what they cost",
+  "desc": "Used cars often carry recalls nobody acted on. Recall repairs are free — here is how to find open ones and get them done."
+ },
+ {
+  "slug": "title-jumping.html",
+  "title": "Title jumping: when the seller isn't on the title",
+  "desc": "If the name on the title isn't the person selling you the car, you may not be able to register it. What 'open titles' mean for a buyer."
+ },
+ {
+  "slug": "curbstoning.html",
+  "title": "Curbstoning: when a 'private seller' is really an unlicensed dealer",
+  "desc": "Some private sellers are unlicensed dealers avoiding the rules that come with a licence. How to recognise one and why it matters."
+ },
+ {
+  "slug": "vin-check-digit.html",
+  "title": "The VIN check digit: how to tell if a VIN is valid",
+  "desc": "Position 9 of a US VIN is calculated from the other 16. How the calculation works, and what a failed check means."
+ },
+ {
+  "slug": "vin-cloning-detection.html",
+  "title": "VIN cloning: how it works and how to catch it",
+  "desc": "A cloned VIN is a real number copied from a legitimate car. It passes every quick check. Here is what catches it."
+ },
+ {
+  "slug": "dealer-vs-private-seller.html",
+  "title": "Dealer or private seller: what changes for the buyer",
+  "desc": "The same used car carries different protections depending on who sells it. What you gain and lose with a dealer versus a private party."
+ },
+ {
+  "slug": "buying-a-car-out-of-state.html",
+  "title": "Buying a used car in another state",
+  "desc": "Crossing a state line adds title, registration, tax and inspection steps. What to sort out before you pay."
+ },
+ {
+  "slug": "test-drive-checklist.html",
+  "title": "The used-car test drive: what to actually check",
+  "desc": "A test drive is an inspection, not a joyride. What to check before starting, while driving, and after you stop."
+ },
+ {
+  "slug": "frame-damage-signs.html",
+  "title": "Signs of frame or structural damage",
+  "desc": "Structural damage decides whether a car protects you in the next crash. What to look for, and why a repair isn't automatically bad."
+ },
+ {
+  "slug": "problem-after-purchase.html",
+  "title": "You bought the car and found a problem. What now?",
+  "desc": "A hidden defect, an undisclosed accident, a title brand you missed. What to gather, who to contact, and in what order."
+ },
+ {
+  "slug": "traveling-to-buy-a-car.html",
+  "title": "Before you travel to buy a car",
+  "desc": "A flight or a long drive to collect a car is money spent before you know the car is right. What to confirm before you leave."
+ },
+ {
+  "slug": "estate-sale-car.html",
+  "title": "Buying a car from an estate",
+  "desc": "A car sold after its owner has died is often well kept and well priced. The complication is almost always the title."
+ },
+ {
+  "slug": "car-deposit-safety.html",
+  "title": "Deposits and holds: when paying early is safe and when it isn't",
+  "desc": "Sellers ask for deposits to hold a car. Some requests are routine; others are the start of a scam. How to tell them apart."
+ },
+ {
+  "slug": "ex-rental-fleet-cars.html",
+  "title": "Ex-rental and ex-fleet cars: what their history shows",
+  "desc": "Former rental and company cars are common on used lots. What that history means for condition, and how to find it."
+ },
+ {
+  "slug": "motorcycle-history-check.html",
+  "title": "Checking a used motorcycle's history",
+  "desc": "Motorcycles carry VINs and title records like cars, but the risks and the dealer disclosures differ. What to check."
+ },
+ {
+  "slug": "rv-history-check.html",
+  "title": "Checking a used RV's history",
+  "desc": "A motorhome is a vehicle and a building. What the VIN check covers, what it misses, and where water damage hides."
+ },
+ {
+  "slug": "boat-hin-check.html",
+  "title": "Boats don't have a VIN: checking a Hull Identification Number",
+  "desc": "Boats carry a 12-character HIN instead of a VIN. What the characters mean, where it must be, and what a tampered one looks like."
+ },
+ {
+  "slug": "imported-vehicles.html",
+  "title": "Buying an imported or grey-market vehicle",
+  "desc": "A vehicle not originally built for the US market has to clear federal safety and emissions rules. What that means for a buyer."
+ },
+ {
+  "slug": "certified-pre-owned.html",
+  "title": "What 'certified pre-owned' actually means",
+  "desc": "The label sounds official. It can mean a manufacturer-backed program or a dealer's own marketing. How to tell which one you're getting."
+ },
+ {
+  "slug": "duplicate-title.html",
+  "title": "Buying a car with a duplicate title",
+  "desc": "Titles get lost and replaced all the time. A duplicate can also hide a lien. How to tell a routine replacement from a problem."
+ },
+ {
+  "slug": "bill-of-sale.html",
+  "title": "What a used-car bill of sale should include",
+  "desc": "A bill of sale is your record of what was agreed. What to put in it, and why the VIN and the words 'as is' matter."
+ },
+ {
+  "slug": "hail-damage-cars.html",
+  "title": "Hail-damaged cars: when a total loss is only skin deep",
+  "desc": "Hail can total a car without touching its mechanics. What that means for the title, the price, and the inspection."
+ },
+ {
+  "slug": "fire-damaged-cars.html",
+  "title": "Fire-damaged cars: what to look for",
+  "desc": "Fire and heat damage can be cleaned up cosmetically while leaving wiring, seals and structure compromised. How to spot it."
+ },
+ {
+  "slug": "airbag-history.html",
+  "title": "Airbag deployment history: what to check",
+  "desc": "If the airbags have deployed, the car has been in a significant crash. How to find out, and what to confirm about the replacement."
+ },
+ {
+  "slug": "recovered-theft-vehicles.html",
+  "title": "Buying a car that was stolen and recovered",
+  "desc": "A recovered theft vehicle can be sold legally. What the record shows, how to confirm the theft report is cleared, and what to inspect."
+ },
+ {
+  "slug": "former-police-taxi-rideshare.html",
+  "title": "Former police, taxi and rideshare cars",
+  "desc": "Hard-working former service vehicles reach the used market regularly. How their use shows up and what it does to the car."
+ },
+ {
+  "slug": "warranty-transfer.html",
+  "title": "Does the factory warranty transfer to a used-car buyer?",
+  "desc": "Many new-car warranties continue with the vehicle, but terms differ by manufacturer and by type of coverage. How to find out what's left."
+ },
+ {
+  "slug": "emissions-inspection-history.html",
+  "title": "State inspection and emissions records: what they reveal",
+  "desc": "Where states require vehicle inspections, the records they create can confirm mileage and reveal problems. How to use them."
+ }
+]
