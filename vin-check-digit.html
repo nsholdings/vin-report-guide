@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>How to decode a VIN, position by position | VIN Report Guide</title>
-<meta name="description" content="What each of the 17 characters in a US VIN means, according to the federal regulation that defines it.">
+<title>The VIN check digit: how to tell if a VIN is valid | VIN Report Guide</title>
+<meta name="description" content="Position 9 of a US VIN is calculated from the other 16. How the calculation works, and what a failed check means.">
 <style>
 :root{--bg:#fbfaf9;--fg:#1e1c1a;--muted:#6c6660;--line:#e2ddd6;--card:#fff;--accent:#1d4e6f;--accent-soft:#eaf1f5;--warn:#8a4b1f;--warn-soft:#fbf1e8}
 *{box-sizing:border-box}
@@ -57,50 +57,54 @@ footer.site a{color:var(--muted)}
 </div></header>
 <main><div class="wrap">
 
-<h1>How to decode a VIN, position by position</h1>
+<h1>The VIN check digit: how to tell if a VIN is valid</h1>
 <p class="meta">Last checked September 20, 2026</p>
 
-<p>The 17 characters of a VIN are not random. Their structure is set by federal regulation, <a href="https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-565" rel="nofollow noopener" target="_blank">49 CFR Part 565 (VIN requirements)</a>, and knowing it lets you catch a fake or mistyped VIN before you spend anything checking it.</p>
+<p>The ninth character of a US VIN is not part of the vehicle description. It is a checksum calculated from the other sixteen, defined in <a href="https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-565" rel="nofollow noopener" target="_blank">49 CFR Part 565 (VIN requirements)</a>. Its purpose, in the regulation's words, is "to verify the accuracy of the transcription" of the VIN. It lets you catch typos — and some fabricated numbers — without any database.</p>
 
-<h2>The basic rules</h2>
-<ul>
-<li>"Each VIN shall consist of seventeen (17) characters."</li>
-<li>Each character must be a digit or one of the letters A–Z <strong>except I, O and Q</strong>. The regulation lists the permitted letters, and those three are missing, because they are too easily confused with 1 and 0.</li>
-</ul>
-
-<h2>The four sections</h2>
+<h2>How the calculation works</h2>
+<h3>Step 1 — Turn every character into a number</h3>
+<p>Digits keep their value. Letters are assigned values by the regulation:</p>
 <div class="tablewrap">
 <table>
-<tr><th>Positions</th><th>What the regulation says they represent</th></tr>
-<tr><td>1–3</td><td>First section: identifies the manufacturer and the type of vehicle</td></tr>
-<tr><td>4–8</td><td>Second section: identifies attributes of the vehicle, such as model, body type and engine, as set out in the regulation's tables</td></tr>
-<tr><td>9</td><td>The check digit — a number or the letter X, used to verify the VIN was transcribed correctly</td></tr>
-<tr><td>10</td><td>Model year</td></tr>
-<tr><td>11</td><td>Plant of manufacture</td></tr>
-<tr><td>12–17</td><td>The number sequentially assigned by the manufacturer in production</td></tr>
+<tr><th>Letters</th><th>Values</th></tr>
+<tr><td>A B C D E F G H</td><td>1 2 3 4 5 6 7 8</td></tr>
+<tr><td>J K L M N P R</td><td>1 2 3 4 5 7 9</td></tr>
+<tr><td>S T U V W X Y Z</td><td>2 3 4 5 6 7 8 9</td></tr>
 </table>
 </div>
-<p>For low-volume manufacturers the regulation handles the manufacturer identity and sequence number slightly differently, using positions 12–14 as part of the identifier and 15–17 for the sequence.</p>
+<p>There are no values for I, O or Q, because those letters are never allowed in a VIN.</p>
 
-<h2>Let the decoder do the lookup</h2>
-<p>You do not need to memorize manufacturer codes. The <a href="https://vpic.nhtsa.dot.gov/decoder/" rel="nofollow noopener" target="_blank">NHTSA VIN Decoder</a> lets you enter a VIN and returns the information encoded in it — including the build plant and country — as reported by the manufacturer. It also accepts partial VINs.</p>
+<h3>Step 2 — Multiply each by its position weight</h3>
+<div class="tablewrap">
+<table>
+<tr><th>Position</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+<tr><th>Weight</th><td>8</td><td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>10</td><td>–</td><td>9</td><td>8</td><td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td></tr>
+</table>
+</div>
+<p>Position 9 is the check digit itself, so it is not included.</p>
 
-<h2>Using it as a fraud check</h2>
-<p>Decode the VIN you were given and compare it to the car in front of you and to the listing:</p>
+<h3>Step 3 — Add the products and divide by 11</h3>
+<p>The regulation: "Add the resulting products and divide the total by 11."</p>
+
+<h3>Step 4 — The remainder is the check digit</h3>
+<p>A remainder of 0 to 9 is the check digit. A remainder of 10 is written as the letter <strong>X</strong>. The regulation's own worked example totals 411, which leaves a remainder of 4, so its check digit is 4.</p>
+
+<h2>What a failed check means</h2>
+<p>If the calculated value does not match position 9:</p>
 <ul>
-<li>Does the model year match what the seller claims?</li>
-<li>Does the engine and body type match the car?</li>
-<li>Does the manufacturer match the badge on the car?</li>
+<li><strong>Most often</strong>, a character was mistyped — re-read the VIN from the car</li>
+<li><strong>Sometimes</strong>, the VIN was invented or altered by someone who did not know about the checksum</li>
 </ul>
-<p>A VIN that decodes to a different model, a different year, or a different engine is either mistyped or belongs to another vehicle. Either way, you need the correct one before going further. See how VIN cloning is detected.</p>
+<p>Either way, do not research that VIN further until you have read it correctly from the vehicle yourself.</p>
 
-<div class="note"><strong>Then check the check digit</strong>Position 9 lets you test mathematically whether the VIN is internally consistent. See <a href="vin-check-digit.html">how the check digit works</a>.</div>
+<div class="note warn"><strong>A passing check is not a clean bill of health</strong>A cloned VIN — copied from a real, legitimate car — passes the check digit perfectly, because it is a real VIN. The checksum catches errors and crude fakes, not copies. See VIN cloning.</div>
 
-<h2>What decoding tells you and what it doesn't</h2>
-<p>Decoding tells you what the car was built as. It says nothing about what has happened to it since — accidents, title brands, liens, mileage. For that you need the records filed against the VIN.</p>
+<h2>The shortcut</h2>
+<p>You rarely need to do this by hand. The <a href="https://vpic.nhtsa.dot.gov/decoder/" rel="nofollow noopener" target="_blank">NHTSA VIN Decoder</a> will decode a VIN and flag problems with it. Knowing the method lets you understand what the tool is telling you — and spot-check a VIN on your phone at a seller's driveway.</p>
 
 <div class="cta">
-<p>Decoding tells you what the car was built as. The history record tells you what happened to it.</p>
+<p>A valid check digit tells you the VIN is well-formed. The record tells you whether the car behind it is what it claims to be.</p>
 <a class="btn" href="https://hop.clickbank.net/?affiliate=nsholding&vendor=vincheckup" rel="nofollow sponsored noopener" target="_blank">Run a VIN check at VinCheckUp</a>
 <span class="ad">Advertising disclosure: the link above is an affiliate link. If you buy a report through it, this site may earn a commission at no extra cost to you. It does not change what is written on this page.</span>
 </div>
