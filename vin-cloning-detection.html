@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>How to decode a VIN, position by position | VIN Report Guide</title>
-<meta name="description" content="What each of the 17 characters in a US VIN means, according to the federal regulation that defines it.">
+<title>VIN cloning: how it works and how to catch it | VIN Report Guide</title>
+<meta name="description" content="A cloned VIN is a real number copied from a legitimate car. It passes every quick check. Here is what catches it.">
 <style>
 :root{--bg:#fbfaf9;--fg:#1e1c1a;--muted:#6c6660;--line:#e2ddd6;--card:#fff;--accent:#1d4e6f;--accent-soft:#eaf1f5;--warn:#8a4b1f;--warn-soft:#fbf1e8}
 *{box-sizing:border-box}
@@ -57,53 +57,53 @@ footer.site a{color:var(--muted)}
 </div></header>
 <main><div class="wrap">
 
-<h1>How to decode a VIN, position by position</h1>
+<h1>VIN cloning: how it works and how to catch it</h1>
 <p class="meta">Last checked September 20, 2026</p>
 
-<p>The 17 characters of a VIN are not random. Their structure is set by federal regulation, <a href="https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-565" rel="nofollow noopener" target="_blank">49 CFR Part 565 (VIN requirements)</a>, and knowing it lets you catch a fake or mistyped VIN before you spend anything checking it.</p>
+<p>VIN cloning is the fraud where a stolen car is given the identity of a legitimate one. The thief copies a real VIN — often from a car of the same make, model and color, sometimes photographed straight through someone's windshield — onto the stolen vehicle, and sells it with that car's clean history.</p>
 
-<h2>The basic rules</h2>
+<h2>Why the quick checks don't catch it</h2>
 <ul>
-<li>"Each VIN shall consist of seventeen (17) characters."</li>
-<li>Each character must be a digit or one of the letters A–Z <strong>except I, O and Q</strong>. The regulation lists the permitted letters, and those three are missing, because they are too easily confused with 1 and 0.</li>
+<li>The VIN is real, so it decodes correctly with the <a href="https://vpic.nhtsa.dot.gov/decoder/" rel="nofollow noopener" target="_blank">NHTSA VIN Decoder</a></li>
+<li>The check digit is valid — see <a href="vin-check-digit.html">how the check digit works</a></li>
+<li>The history report is clean, because it is the history of the legitimate car</li>
+<li><a href="https://www.nicb.org/vincheck" rel="nofollow noopener" target="_blank">NICB VINCheck</a> shows no theft report — against the cloned VIN. The stolen car's own VIN is the one reported.</li>
+</ul>
+<p>Every lookup is being run against the wrong car.</p>
+
+<h2>What does catch it</h2>
+<h3>1. The VIN appears in more than one place on the car</h3>
+<p>The dashboard plate is the easiest to replace. Compare it against the door-jamb label and, where you can find it, the number stamped elsewhere on the body or frame. A cloned car often has one location changed and another overlooked. See <a href="vin-basics.html">where the VIN appears</a>.</p>
+
+<h3>2. The plate and label themselves</h3>
+<ul>
+<li>Dashboard VIN plate rivets that are scratched, mismatched, or replaced with something other than the factory type</li>
+<li>A door-jamb label that is peeling, misaligned, or looks newer than the paint around it</li>
+<li>Characters in a font or spacing that differs from other VINs on that make</li>
 </ul>
 
-<h2>The four sections</h2>
-<div class="tablewrap">
-<table>
-<tr><th>Positions</th><th>What the regulation says they represent</th></tr>
-<tr><td>1–3</td><td>First section: identifies the manufacturer and the type of vehicle</td></tr>
-<tr><td>4–8</td><td>Second section: identifies attributes of the vehicle, such as model, body type and engine, as set out in the regulation's tables</td></tr>
-<tr><td>9</td><td>The check digit — a number or the letter X, used to verify the VIN was transcribed correctly</td></tr>
-<tr><td>10</td><td>Model year</td></tr>
-<tr><td>11</td><td>Plant of manufacture</td></tr>
-<tr><td>12–17</td><td>The number sequentially assigned by the manufacturer in production</td></tr>
-</table>
-</div>
-<p>For low-volume manufacturers the regulation handles the manufacturer identity and sequence number slightly differently, using positions 12–14 as part of the identifier and 15–17 for the sequence.</p>
-
-<h2>Let the decoder do the lookup</h2>
-<p>You do not need to memorize manufacturer codes. The <a href="https://vpic.nhtsa.dot.gov/decoder/" rel="nofollow noopener" target="_blank">NHTSA VIN Decoder</a> lets you enter a VIN and returns the information encoded in it — including the build plant and country — as reported by the manufacturer. It also accepts partial VINs.</p>
-
-<h2>Using it as a fraud check</h2>
-<p>Decode the VIN you were given and compare it to the car in front of you and to the listing:</p>
+<h3>3. The record doesn't fit the car</h3>
+<p>This is where the history report earns its money even against a clone. Read it for details that should match the car in front of you:</p>
 <ul>
-<li>Does the model year match what the seller claims?</li>
-<li>Does the engine and body type match the car?</li>
-<li>Does the manufacturer match the badge on the car?</li>
+<li>Where the car has been registered, against where the seller says it has been</li>
+<li>The last recorded odometer reading, against the dashboard</li>
+<li>Equipment and trim as decoded, against what the car actually has</li>
+<li>Recent registration activity in a distant state — the legitimate car may still be on the road there</li>
 </ul>
-<p>A VIN that decodes to a different model, a different year, or a different engine is either mistyped or belongs to another vehicle. Either way, you need the correct one before going further. See <a href="vin-cloning-detection.html">how VIN cloning is detected</a>.</p>
-
-<div class="note"><strong>Then check the check digit</strong>Position 9 lets you test mathematically whether the VIN is internally consistent. See <a href="vin-check-digit.html">how the check digit works</a>.</div>
-
-<h2>What decoding tells you and what it doesn't</h2>
-<p>Decoding tells you what the car was built as. It says nothing about what has happened to it since — accidents, title brands, liens, mileage. For that you need the records filed against the VIN.</p>
 
 <div class="cta">
-<p>Decoding tells you what the car was built as. The history record tells you what happened to it.</p>
+<p>A clone copies the number, not the history. Details in the record that don't fit the car are how cloning is caught.</p>
 <a class="btn" href="https://hop.clickbank.net/?affiliate=nsholding&vendor=vincheckup" rel="nofollow sponsored noopener" target="_blank">Run a VIN check at VinCheckUp</a>
 <span class="ad">Advertising disclosure: the link above is an affiliate link. If you buy a report through it, this site may earn a commission at no extra cost to you. It does not change what is written on this page.</span>
 </div>
+
+<h3>4. The title</h3>
+<p>Cloned cars are often sold with forged or fraudulently obtained titles. Check that the title's VIN, name and security features look right, and that the seller's ID matches the name on it.</p>
+
+<div class="note warn"><strong>The price is the first clue</strong>Cloned cars are stolen, so they are usually priced below market with an urgent reason attached. A late-model car well below its value, for cash, today, is the pattern.</div>
+
+<h2>If you suspect it</h2>
+<p>Do not confront the seller. Walk away, and report what you saw to local police or to the NICB.</p>
 
 </div></main>
 <footer class="site"><div class="wrap">
