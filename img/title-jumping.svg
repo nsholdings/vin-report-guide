@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="a document folder being passed past an empty outline where the owner should be"><title>a document folder being passed past an empty outline where the owner should be</title><style>
+.bg{fill:#fbfaf9}.soft{fill:#eaf1f5}.soft2{fill:#d9e6ee}.ground{fill:#f3efe9}.road{fill:#e2ddd6}
+.paper{fill:#ffffff;stroke:#1e1c1a;stroke-width:3}.ink{fill:#1e1c1a}.inks{stroke:#1e1c1a;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.acc{fill:#1d4e6f}.accs{stroke:#1d4e6f;fill:none;stroke-width:4;stroke-linecap:round}.warn{fill:#8a4b1f}.warns{stroke:#8a4b1f;fill:none;stroke-width:5;stroke-linecap:round}
+.wsoft{fill:#fbf1e8}.muted{fill:#b9b2a9}.mutes{stroke:#c9c2b9;fill:none;stroke-width:6;stroke-linecap:round}.hub{fill:#e2ddd6}.white{fill:#fbfaf9}
+.water{fill:#1d4e6f;opacity:.18}.wline{stroke:#1d4e6f;fill:none;stroke-width:4;opacity:.55}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161514}.soft{fill:#1f2c34}.soft2{fill:#263843}.ground{fill:#1e1d1b}.road{fill:#322e2a}
+.paper{fill:#1e1d1b;stroke:#eae7e2}.ink{fill:#eae7e2}.inks{stroke:#eae7e2}.acc{fill:#7db6d6}.accs{stroke:#7db6d6}
+.warn{fill:#d9a06a}.warns{stroke:#d9a06a}.wsoft{fill:#2c2419}.muted{fill:#5a544d}.mutes{stroke:#4a453f}.hub{fill:#322e2a}.white{fill:#161514}
+.water{fill:#7db6d6;opacity:.22}.wline{stroke:#7db6d6}}
+</style><rect class="bg" width="1200" height="630"/><circle class="soft" cx="600" cy="300" r="260"/><g transform="translate(400,520) scale(1.4)"><circle class="acc" cx="0" cy="-150" r="22"/><path class="acc" d="M-30,-118 Q0,-128 30,-118 L36,-30 L18,-30 L14,0 L-14,0 L-18,-30 L-36,-30 Z"/></g><g style="opacity:.9"><circle cx="820" cy="310" r="30" class="inks" style="stroke-dasharray:10 8"/><path class="inks" d="M780,350 L860,350 L870,500 L770,500Z" style="stroke-dasharray:10 8"/></g><rect class="paper" x="520" y="220" width="160" height="200" rx="10"/><rect class="acc" x="548" y="244" width="80" height="12" rx="6"/><path class="mutes" d="M548,280 L652,280"/><path class="mutes" d="M548,314 L612,314"/><path class="mutes" d="M548,348 L652,348"/><path class="mutes" d="M548,382 L612,382"/><path class="mutes" d="M548,416 L652,416"/><path class="warns" d="M690,320 L760,320" style="stroke-dasharray:10 10"/></svg>

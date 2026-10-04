@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="a motorcycle in a garage with a flashlight beam on the frame where the VIN is stamped"><title>a motorcycle in a garage with a flashlight beam on the frame where the VIN is stamped</title><style>
+.bg{fill:#fbfaf9}.soft{fill:#eaf1f5}.soft2{fill:#d9e6ee}.ground{fill:#f3efe9}.road{fill:#e2ddd6}
+.paper{fill:#ffffff;stroke:#1e1c1a;stroke-width:3}.ink{fill:#1e1c1a}.inks{stroke:#1e1c1a;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.acc{fill:#1d4e6f}.accs{stroke:#1d4e6f;fill:none;stroke-width:4;stroke-linecap:round}.warn{fill:#8a4b1f}.warns{stroke:#8a4b1f;fill:none;stroke-width:5;stroke-linecap:round}
+.wsoft{fill:#fbf1e8}.muted{fill:#b9b2a9}.mutes{stroke:#c9c2b9;fill:none;stroke-width:6;stroke-linecap:round}.hub{fill:#e2ddd6}.white{fill:#fbfaf9}
+.water{fill:#1d4e6f;opacity:.18}.wline{stroke:#1d4e6f;fill:none;stroke-width:4;opacity:.55}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161514}.soft{fill:#1f2c34}.soft2{fill:#263843}.ground{fill:#1e1d1b}.road{fill:#322e2a}
+.paper{fill:#1e1d1b;stroke:#eae7e2}.ink{fill:#eae7e2}.inks{stroke:#eae7e2}.acc{fill:#7db6d6}.accs{stroke:#7db6d6}
+.warn{fill:#d9a06a}.warns{stroke:#d9a06a}.wsoft{fill:#2c2419}.muted{fill:#5a544d}.mutes{stroke:#4a453f}.hub{fill:#322e2a}.white{fill:#161514}
+.water{fill:#7db6d6;opacity:.22}.wline{stroke:#7db6d6}}
+</style><rect class="bg" width="1200" height="630"/><rect class="soft" width="1200" height="630"/><rect class="soft2" x="760" y="120" width="380" height="350"/><rect class="soft" x="817.0" y="225.0" width="266.0" height="244.99999999999997"/><path class="mutes" d="M817.0,274.0 L1083.0,274.0" style="stroke-width:3"/><path class="mutes" d="M817.0,323.0 L1083.0,323.0" style="stroke-width:3"/><path class="mutes" d="M817.0,372.0 L1083.0,372.0" style="stroke-width:3"/><path class="mutes" d="M817.0,421.0 L1083.0,421.0" style="stroke-width:3"/><rect class="ground" y="470" width="1200" height="160"/><g transform="translate(260,320) scale(1.25)"><circle class="inks" cx="40" cy="90" r="38" style="stroke-width:12"/><circle class="inks" cx="250" cy="90" r="38" style="stroke-width:12"/>
+<path class="inks" d="M40,90 L110,40 L190,40 L250,90" style="stroke-width:8"/><path class="acc" d="M95,30 Q120,10 160,14 L200,22 Q210,34 196,42 L110,46 Z"/><path class="ink" d="M60,30 Q80,22 105,28 L100,40 Z"/>
+<path class="inks" d="M190,40 L215,0 L240,-4" style="stroke-width:7"/><rect class="acc" x="120" y="46" width="60" height="30" rx="8"/></g><g transform="translate(780,240) rotate(160) scale(0.9)"><path class="wsoft" d="M60,-20 L260,-90 L260,90 L60,20 Z" style="opacity:.9"/><rect class="ink" x="-60" y="-14" width="100" height="28" rx="8"/><path class="ink" d="M40,-22 L64,-30 L64,30 L40,22Z"/></g><circle class="warn" cx="497" cy="362" r="16"/></svg>

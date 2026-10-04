@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="a dashboard odometer with blurred digits and a circular rewind arrow"><title>a dashboard odometer with blurred digits and a circular rewind arrow</title><style>
+.bg{fill:#fbfaf9}.soft{fill:#eaf1f5}.soft2{fill:#d9e6ee}.ground{fill:#f3efe9}.road{fill:#e2ddd6}
+.paper{fill:#ffffff;stroke:#1e1c1a;stroke-width:3}.ink{fill:#1e1c1a}.inks{stroke:#1e1c1a;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.acc{fill:#1d4e6f}.accs{stroke:#1d4e6f;fill:none;stroke-width:4;stroke-linecap:round}.warn{fill:#8a4b1f}.warns{stroke:#8a4b1f;fill:none;stroke-width:5;stroke-linecap:round}
+.wsoft{fill:#fbf1e8}.muted{fill:#b9b2a9}.mutes{stroke:#c9c2b9;fill:none;stroke-width:6;stroke-linecap:round}.hub{fill:#e2ddd6}.white{fill:#fbfaf9}
+.water{fill:#1d4e6f;opacity:.18}.wline{stroke:#1d4e6f;fill:none;stroke-width:4;opacity:.55}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161514}.soft{fill:#1f2c34}.soft2{fill:#263843}.ground{fill:#1e1d1b}.road{fill:#322e2a}
+.paper{fill:#1e1d1b;stroke:#eae7e2}.ink{fill:#eae7e2}.inks{stroke:#eae7e2}.acc{fill:#7db6d6}.accs{stroke:#7db6d6}
+.warn{fill:#d9a06a}.warns{stroke:#d9a06a}.wsoft{fill:#2c2419}.muted{fill:#5a544d}.mutes{stroke:#4a453f}.hub{fill:#322e2a}.white{fill:#161514}
+.water{fill:#7db6d6;opacity:.22}.wline{stroke:#7db6d6}}
+</style><rect class="bg" width="1200" height="630"/><rect width="1200" height="630" style="fill:#2a2724"/><circle cx="600" cy="360" r="230" class="soft" style="opacity:.15"/><path d="M400,440 A220,220 0 1 1 800,440" class="accs" style="stroke-width:16"/><path class="warns" d="M600,360 L700,250" style="stroke-width:10"/><circle class="soft" cx="600" cy="360" r="14"/><rect x="470" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><rect x="516" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><rect x="562" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><rect x="608" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><rect x="654" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><rect x="700" y="430" width="38" height="56" rx="6" style="fill:#8a837b"/><path class="warns" d="M940,180 A70,70 0 1 0 990,260" style="stroke-width:10"/><path class="warn" d="M915,150 L960,180 L912,210Z"/></svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="a steering wheel with the airbag area outlined and a warning light lit on the dashboard"><title>a steering wheel with the airbag area outlined and a warning light lit on the dashboard</title><style>
+.bg{fill:#fbfaf9}.soft{fill:#eaf1f5}.soft2{fill:#d9e6ee}.ground{fill:#f3efe9}.road{fill:#e2ddd6}
+.paper{fill:#ffffff;stroke:#1e1c1a;stroke-width:3}.ink{fill:#1e1c1a}.inks{stroke:#1e1c1a;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.acc{fill:#1d4e6f}.accs{stroke:#1d4e6f;fill:none;stroke-width:4;stroke-linecap:round}.warn{fill:#8a4b1f}.warns{stroke:#8a4b1f;fill:none;stroke-width:5;stroke-linecap:round}
+.wsoft{fill:#fbf1e8}.muted{fill:#b9b2a9}.mutes{stroke:#c9c2b9;fill:none;stroke-width:6;stroke-linecap:round}.hub{fill:#e2ddd6}.white{fill:#fbfaf9}
+.water{fill:#1d4e6f;opacity:.18}.wline{stroke:#1d4e6f;fill:none;stroke-width:4;opacity:.55}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161514}.soft{fill:#1f2c34}.soft2{fill:#263843}.ground{fill:#1e1d1b}.road{fill:#322e2a}
+.paper{fill:#1e1d1b;stroke:#eae7e2}.ink{fill:#eae7e2}.inks{stroke:#eae7e2}.acc{fill:#7db6d6}.accs{stroke:#7db6d6}
+.warn{fill:#d9a06a}.warns{stroke:#d9a06a}.wsoft{fill:#2c2419}.muted{fill:#5a544d}.mutes{stroke:#4a453f}.hub{fill:#322e2a}.white{fill:#161514}
+.water{fill:#7db6d6;opacity:.22}.wline{stroke:#7db6d6}}
+</style><rect class="bg" width="1200" height="630"/><rect class="soft" width="1200" height="630"/><path d="M0,330 Q600,250 1200,330 L1200,630 L0,630 Z" style="fill:#2a2724"/><circle cx="560" cy="460" r="200" class="inks" style="stroke-width:34;stroke:#3a3632"/><circle cx="560" cy="460" r="90" class="acc"/><circle cx="560" cy="460" r="110" class="warns" style="stroke-dasharray:16 12"/><path class="inks" d="M370,460 L470,460 M650,460 L750,460 M560,550 L560,650" style="stroke-width:30;stroke:#3a3632"/><circle class="warn" cx="900" cy="370" r="22"/><circle class="wsoft" cx="900" cy="370" r="10"/></svg>

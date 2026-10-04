@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="three report cards of different lengths side by side, each with a small car icon"><title>three report cards of different lengths side by side, each with a small car icon</title><style>
+.bg{fill:#fbfaf9}.soft{fill:#eaf1f5}.soft2{fill:#d9e6ee}.ground{fill:#f3efe9}.road{fill:#e2ddd6}
+.paper{fill:#ffffff;stroke:#1e1c1a;stroke-width:3}.ink{fill:#1e1c1a}.inks{stroke:#1e1c1a;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.acc{fill:#1d4e6f}.accs{stroke:#1d4e6f;fill:none;stroke-width:4;stroke-linecap:round}.warn{fill:#8a4b1f}.warns{stroke:#8a4b1f;fill:none;stroke-width:5;stroke-linecap:round}
+.wsoft{fill:#fbf1e8}.muted{fill:#b9b2a9}.mutes{stroke:#c9c2b9;fill:none;stroke-width:6;stroke-linecap:round}.hub{fill:#e2ddd6}.white{fill:#fbfaf9}
+.water{fill:#1d4e6f;opacity:.18}.wline{stroke:#1d4e6f;fill:none;stroke-width:4;opacity:.55}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161514}.soft{fill:#1f2c34}.soft2{fill:#263843}.ground{fill:#1e1d1b}.road{fill:#322e2a}
+.paper{fill:#1e1d1b;stroke:#eae7e2}.ink{fill:#eae7e2}.inks{stroke:#eae7e2}.acc{fill:#7db6d6}.accs{stroke:#7db6d6}
+.warn{fill:#d9a06a}.warns{stroke:#d9a06a}.wsoft{fill:#2c2419}.muted{fill:#5a544d}.mutes{stroke:#4a453f}.hub{fill:#322e2a}.white{fill:#161514}
+.water{fill:#7db6d6;opacity:.22}.wline{stroke:#7db6d6}}
+</style><rect class="bg" width="1200" height="630"/><circle class="soft" cx="600" cy="300" r="260"/><rect class="paper" x="260" y="260" width="200" height="200" rx="12"/><g transform="translate(300,286) scale(0.33)"><g>
+<path class="acc" d="M0,80 L10,60 Q20,52 40,50 L95,48 L135,18 Q145,10 160,10 L250,10 Q265,10 275,20 L310,48 L345,54 Q360,58 360,72 L360,92 Q360,100 352,100 L8,100 Q0,100 0,92 Z"/>
+<path class="soft" d="M147,20 L200,20 L200,44 L117,44 Z"/><path class="soft" d="M208,20 L260,20 Q267,20 271,26 L290,44 L208,44 Z"/>
+<path class="inks" d="M204,50 L204,94" style="opacity:.35"/><rect class="soft" x="340" y="62" width="14" height="8" rx="3"/>
+<circle class="ink" cx="80" cy="100" r="27"/><circle class="hub" cx="80" cy="100" r="11"/>
+<circle class="ink" cx="282" cy="100" r="27"/><circle class="hub" cx="282" cy="100" r="11"/></g></g><path class="mutes" d="M288,360 L432,360"/><path class="mutes" d="M288,392 L402,392"/><path class="mutes" d="M288,424 L432,424"/><rect class="paper" x="500" y="180" width="200" height="280" rx="12"/><g transform="translate(540,206) scale(0.33)"><g>
+<path class="acc" d="M0,80 L10,60 Q20,52 40,50 L95,48 L135,18 Q145,10 160,10 L250,10 Q265,10 275,20 L310,48 L345,54 Q360,58 360,72 L360,92 Q360,100 352,100 L8,100 Q0,100 0,92 Z"/>
+<path class="soft" d="M147,20 L200,20 L200,44 L117,44 Z"/><path class="soft" d="M208,20 L260,20 Q267,20 271,26 L290,44 L208,44 Z"/>
+<path class="inks" d="M204,50 L204,94" style="opacity:.35"/><rect class="soft" x="340" y="62" width="14" height="8" rx="3"/>
+<circle class="ink" cx="80" cy="100" r="27"/><circle class="hub" cx="80" cy="100" r="11"/>
+<circle class="ink" cx="282" cy="100" r="27"/><circle class="hub" cx="282" cy="100" r="11"/></g></g><path class="mutes" d="M528,280 L672,280"/><path class="mutes" d="M528,312 L642,312"/><path class="mutes" d="M528,344 L672,344"/><path class="mutes" d="M528,376 L642,376"/><path class="mutes" d="M528,408 L672,408"/><rect class="paper" x="740" y="110" width="200" height="350" rx="12"/><g transform="translate(780,136) scale(0.33)"><g>
+<path class="acc" d="M0,80 L10,60 Q20,52 40,50 L95,48 L135,18 Q145,10 160,10 L250,10 Q265,10 275,20 L310,48 L345,54 Q360,58 360,72 L360,92 Q360,100 352,100 L8,100 Q0,100 0,92 Z"/>
+<path class="soft" d="M147,20 L200,20 L200,44 L117,44 Z"/><path class="soft" d="M208,20 L260,20 Q267,20 271,26 L290,44 L208,44 Z"/>
+<path class="inks" d="M204,50 L204,94" style="opacity:.35"/><rect class="soft" x="340" y="62" width="14" height="8" rx="3"/>
+<circle class="ink" cx="80" cy="100" r="27"/><circle class="hub" cx="80" cy="100" r="11"/>
+<circle class="ink" cx="282" cy="100" r="27"/><circle class="hub" cx="282" cy="100" r="11"/></g></g><path class="mutes" d="M768,210 L912,210"/><path class="mutes" d="M768,242 L882,242"/><path class="mutes" d="M768,274 L912,274"/><path class="mutes" d="M768,306 L882,306"/><path class="mutes" d="M768,338 L912,338"/><path class="mutes" d="M768,370 L882,370"/><path class="mutes" d="M768,402 L912,402"/></svg>
