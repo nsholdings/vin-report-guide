@@ -278,5 +278,45 @@
     "slug": "missouri-used-car-guide.html",
     "title": "Buying a used car in Missouri: the highway patrol examination",
     "desc": "Missouri runs rebuilt vehicles through a Highway Patrol examination with strict parts-receipt rules — every used part has to name the vehicle it came from."
+  },
+  {
+    "slug": "maryland-used-car-guide.html",
+    "title": "Buying a used car in Maryland: the embossed salvage certificate",
+    "desc": "Maryland runs rebuilt cars past a State Police inspection that ends with a physical mark on the certificate. That mark is the thing to ask a seller to show you."
+  },
+  {
+    "slug": "wisconsin-used-car-guide.html",
+    "title": "Buying a used car in Wisconsin: the inspection certificate is the document",
+    "desc": "Wisconsin will not retitle a repaired salvage vehicle without an inspection certificate from a certified salvage title inspector. That certificate is what you should be asking for."
+  },
+  {
+    "slug": "colorado-used-car-guide.html",
+    "title": "Buying a used car in Colorado: the hail exclusion",
+    "desc": "Colorado writes hail damage out of its salvage definition entirely. In a state with that much hail, it is the single most important thing a buyer there can know."
+  },
+  {
+    "slug": "minnesota-used-car-guide.html",
+    "title": "Buying a used car in Minnesota: the prior salvage brand",
+    "desc": "Minnesota has a brand specifically for cars branded somewhere else. It is one of the few state rules written directly against title washing."
+  },
+  {
+    "slug": "south-carolina-used-car-guide.html",
+    "title": "Buying a used car in South Carolina: the brand names the cause",
+    "desc": "South Carolina writes the cause into the brand — fire and flood get their own wording. Reading the exact phrase tells you what to inspect."
+  },
+  {
+    "slug": "alabama-used-car-guide.html",
+    "title": "Buying a used car in Alabama: who is allowed to rebuild it",
+    "desc": "Alabama limits who may apply to rebuild a salvage vehicle, requires restoration to pre-damage operating condition, and lists brands that can never be rebuilt at all."
+  },
+  {
+    "slug": "louisiana-used-car-guide.html",
+    "title": "Buying a used car in Louisiana: the certificate of destruction",
+    "desc": "Louisiana created a title type specifically for flood-damaged cars, and a car that holds it can never be titled salvage or reconstructed. In a hurricane state, that is the rule to know."
+  },
+  {
+    "slug": "kentucky-used-car-guide.html",
+    "title": "Buying a used car in Kentucky: the affidavit does the work",
+    "desc": "Kentucky's rebuilt process runs on documents rather than a routine inspection — including a receipt for every part with the donor VIN on it."
   }
 ]
