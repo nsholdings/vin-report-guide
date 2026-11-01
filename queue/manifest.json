@@ -358,5 +358,45 @@
     "slug": "arkansas-used-car-guide.html",
     "title": "Buying a used car in Arkansas: above the dashboard",
     "desc": "Arkansas defines a water-damaged vehicle by how deep the water got, not by what the repair cost. Above the dashboard, and the car is salvage whatever the bill says."
+  },
+  {
+    "slug": "kansas-used-car-guide.html",
+    "title": "Buying a used car in Kansas: what the 75% calculation leaves out",
+    "desc": "Kansas uses a 75% threshold, but it strips specific items out of the repair cost and ignores cosmetic hail and windstorm damage entirely."
+  },
+  {
+    "slug": "nebraska-used-car-guide.html",
+    "title": "Buying a used car in Nebraska: Previously Salvaged, and the $12,500 line",
+    "desc": "Nebraska's brand is worded 'Previously Salvaged' rather than rebuilt, and its definition of a late-model vehicle catches expensive cars of any age."
+  },
+  {
+    "slug": "west-virginia-used-car-guide.html",
+    "title": "Buying a used car in West Virginia: the reconstructed title",
+    "desc": "West Virginia uses its own inspector, its own two forms, and a one-trip permit from the State Police just to get the car to the inspection."
+  },
+  {
+    "slug": "new-hampshire-used-car-guide.html",
+    "title": "Buying a used car in New Hampshire: inspected against the adjuster's report",
+    "desc": "New Hampshire's salvage inspection checks the damage listed in the insurance adjuster's report has actually been repaired — which means that report exists."
+  },
+  {
+    "slug": "maine-used-car-guide.html",
+    "title": "Buying a used car in Maine: five parts is the dividing line",
+    "desc": "Maine decides between a 'rebuilt' and a 'rebuilt salvage' legend by counting replaced component parts — and airbags do not count towards the total."
+  },
+  {
+    "slug": "idaho-used-car-guide.html",
+    "title": "Buying a used car in Idaho: brands that come from the national database",
+    "desc": "Idaho brands titles straight from national records, including a 'For Junk Only' brand for any vehicle reported scrapped or crushed."
+  },
+  {
+    "slug": "montana-used-car-guide.html",
+    "title": "Buying a used car in Montana: rebuilt salvage, and a permit to move it",
+    "desc": "Montana prints 'rebuilt salvage' on the title after inspection, and makes it an offence to use a salvage vehicle on the road without a temporary permit."
+  },
+  {
+    "slug": "rhode-island-used-car-guide.html",
+    "title": "Buying a used car in Rhode Island: only a licensed rebuilder may do the work",
+    "desc": "Rhode Island will not accept a salvage repair done by anyone other than a state-licensed salvage rebuilder. No exceptions, in the state's own words."
   }
 ]
