@@ -198,5 +198,45 @@
     "slug": "new-jersey-used-car-guide.html",
     "title": "Buying a used car in New Jersey: the used car lemon law, flood titles and salvage",
     "desc": "New Jersey requires dealers to give a written warranty on many used cars, with clear exceptions. How the lemon law works, how flood vehicles are marked, and what salvage restoration involves."
+  },
+  {
+    "slug": "clean-title-accident-history.html",
+    "title": "A clean title does not mean the car was never crashed",
+    "desc": "Title brands record total losses, not every accident. What federal rules actually require insurers and salvage yards to report — and what falls outside them entirely."
+  },
+  {
+    "slug": "manufacturer-buyback-title.html",
+    "title": "Manufacturer buyback titles: what a lemon-law repurchase means for you",
+    "desc": "A car the manufacturer bought back under a state lemon law is usually branded — but the wording differs by state and some repurchases carry no brand at all."
+  },
+  {
+    "slug": "parts-marking-labels.html",
+    "title": "The VIN labels on body panels, and what a missing one tells you",
+    "desc": "Federal rules require identifying numbers on specific panels and major parts of many cars. A panel with no label has usually been off the car."
+  },
+  {
+    "slug": "older-car-records.html",
+    "title": "Checking a 20-year-old car: what records still exist",
+    "desc": "Older cars drop out of the federal odometer-disclosure rules and the oldest predate the standard VIN. What you can still verify, and what has to replace it."
+  },
+  {
+    "slug": "commercial-truck-history-check.html",
+    "title": "Checking a used commercial truck's history",
+    "desc": "Heavy trucks are exempt from federal odometer disclosure and their safety record attaches to the carrier, not the VIN. Where to look instead."
+  },
+  {
+    "slug": "trailer-vin-title-check.html",
+    "title": "Checking a used trailer before you buy it",
+    "desc": "Trailers carry VINs under the same federal rule as cars, but titling depends on weight and state, and no odometer disclosure applies. What to verify."
+  },
+  {
+    "slug": "used-ev-history-check.html",
+    "title": "Checking a used electric car: what the history shows and what it cannot",
+    "desc": "A VIN check covers an EV's title, brands, liens and recalls like any car. It says nothing about the battery — which is what decides the car's value."
+  },
+  {
+    "slug": "ex-lease-car-check.html",
+    "title": "Ex-lease cars: why the paperwork is better than most",
+    "desc": "A leased car produces a signed mileage statement when it goes back, and the lessor has to keep it for years. That makes an ex-lease history unusually easy to verify."
   }
 ]
