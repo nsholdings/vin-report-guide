@@ -238,5 +238,45 @@
     "slug": "ex-lease-car-check.html",
     "title": "Ex-lease cars: why the paperwork is better than most",
     "desc": "A leased car produces a signed mileage statement when it goes back, and the lessor has to keep it for years. That makes an ex-lease history unusually easy to verify."
+  },
+  {
+    "slug": "michigan-used-car-guide.html",
+    "title": "Buying a used car in Michigan: the 75% and 91% lines",
+    "desc": "Michigan splits damaged cars at two exact percentages. One side can be rebuilt and driven; the other can never be titled again. And since 2017 a mechanic has to sign off."
+  },
+  {
+    "slug": "virginia-used-car-guide.html",
+    "title": "Buying a used car in Virginia: late model, salvage and rebuilt",
+    "desc": "Virginia's definitions turn on value rather than a single percentage, and a car can become a 'rebuilt vehicle' without ever having been salvage. What the seller must hand you."
+  },
+  {
+    "slug": "washington-used-car-guide.html",
+    "title": "Buying a used car in Washington: the WA REBUILT brand",
+    "desc": "Washington distinguishes a vehicle the insurer reported from one the owner reported, applies a market-value test to cars six to twenty years old, and brands rebuilt cars WA REBUILT."
+  },
+  {
+    "slug": "arizona-used-car-guide.html",
+    "title": "Buying a used car in Arizona: restored salvage and the level inspection",
+    "desc": "Arizona rebuilds run through a department inspection with hard deadlines, component-part paperwork, and a written disclosure the seller must give you before the sale closes."
+  },
+  {
+    "slug": "massachusetts-used-car-guide.html",
+    "title": "Buying a used car in Massachusetts: REPR, PART and the cause code",
+    "desc": "Massachusetts brands salvage titles twice — once for whether the car may be repaired, once for what happened to it. And a salvage title there is permanent."
+  },
+  {
+    "slug": "tennessee-used-car-guide.html",
+    "title": "Buying a used car in Tennessee: the anti-theft inspection brand",
+    "desc": "Tennessee's rebuilt brand says what it is: anti-theft inspected. Knowing what that inspection does and does not check is the whole point for a buyer."
+  },
+  {
+    "slug": "indiana-used-car-guide.html",
+    "title": "Buying a used car in Indiana: REBUILT VEHICLE and the restorer's affidavit",
+    "desc": "Indiana spells the brand out on the title, requires a state police inspection of where the parts came from, and has one exception that lets a damaged car avoid the brand."
+  },
+  {
+    "slug": "missouri-used-car-guide.html",
+    "title": "Buying a used car in Missouri: the highway patrol examination",
+    "desc": "Missouri runs rebuilt vehicles through a Highway Patrol examination with strict parts-receipt rules — every used part has to name the vehicle it came from."
   }
 ]
